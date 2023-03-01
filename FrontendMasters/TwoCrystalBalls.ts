@@ -7,7 +7,7 @@ const twoCrystalBalls = (breaks: boolean[]) => {
       break;
     }
   }
-
+  //If breaks go back
   i -= jumpAmount;
   for (let j = 0; j < jumpAmount && i < breaks.length; ++j, ++i) {
     if (breaks[i]) return i;
