@@ -3,7 +3,7 @@
 var isAnagram = function (s, t) {
   return s.split("").sort().join("") === t.split("").sort().join("");
 };
-// O(S + T) ST
+// O(S + T) Time | O(ch) Space
 var isAnagram = function (s, t) {
   if (s.length != t.length) return false;
   const hash = {};
